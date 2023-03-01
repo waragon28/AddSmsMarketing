@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="Vistony_PE" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="Envio Masivo SMS" ExtVersion="1.1.1" Contdata="waragon@nogasa.com.pe" Partner="TI Vistony" DBType="HANA" ClientType="A">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="9" To="10" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.Win\bin\Debug\Vistony.EnvioMasivo.Win.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="Vistony.EnvioMasivo.Win.exe">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="Vistony.EnvioMasivo.Win.exe">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.Win\bin\Debug\Vistony.EnvioMasivo.Win.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="DLCuotas.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.ServiceLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.Utils.dll">
+              <Actions />
+            </File>
+            <File FileName="ICSharpCode.SharpZipLib.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.dll">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.BLL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.BO.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.DAL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.b1s">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.exe">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.BLL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.BO.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.DAL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.b1s">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.exe">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Files\UserMenus.xml">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="DLCuotas.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.ServiceLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="Forxap.Framework.Utils.dll">
+              <Actions />
+            </File>
+            <File FileName="ICSharpCode.SharpZipLib.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.dll">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.BLL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.BO.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.DAL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.b1s">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.exe">
+              <Actions />
+            </File>
+            <File FileName="Vistony.Distribucion.Win.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.BLL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.BO.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.DAL.dll">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.b1s">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.exe">
+              <Actions />
+            </File>
+            <File FileName="Vistony.EnvioMasivo.Win.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Files\UserMenus.xml">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>

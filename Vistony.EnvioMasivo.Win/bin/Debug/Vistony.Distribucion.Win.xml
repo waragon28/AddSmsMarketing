@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vistony.Distribucion.Win</name>
+    </assembly>
+    <members>
+        <member name="M:Vistony.Distribucion.Win.ApplicationEvent.SB1_Application_AppEvent(SAPbouiCOM.BoAppEventTypes)">
+            <summary>
+            
+            </summary>
+            <param name="EventType"></param>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Asistentes.BaseWizard.PaneLevel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Asistentes.BaseWizard.PaneMax">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Asistentes.BaseWizard.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Asistentes.BaseWizard.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Asistentes.wzProgramacion.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Asistentes.wzProgramacion.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1Connection.ConnectToSAP">
+            <summary>
+            Conecta el AddOn a la instancia de SAP que se encuentra cargada (desarrollo) o en la instancia
+            que lo invoca en Producción.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.FormMenuEvent.SB1_Application_FormMenuEvent(SAPbouiCOM.MenuEvent@,System.Boolean@)">
+            <summary>
+            
+            </summary>
+            <param name="pVal"></param>
+            <param name="BubbleEvent"></param>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udAsignaDespacho.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udAsignaDespacho.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udEstadosDespachos.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udEstadosDespachos.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udOcurrenciaDespacho.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udOcurrenciaDespacho.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udConsolidado.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udConsolidado.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Formularios.udConsolidado.ProcesoConsolidado(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tipoConsolidado"></param>
+            <param name="fechaConsolidado"></param>
+        </member>
+        <member name="T:Vistony.Distribucion.Win.Sb1Globals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.oCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.oCompanyService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.DbServerType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.CompanyName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.CompanyDB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.Autorizacion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.oForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.UserSignature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vistony.Distribucion.Win.Sb1Globals.UserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Vistony.Distribucion.Win.MainMenuEvent.SB1_Application_MainMenuEvent(SAPbouiCOM.MenuEvent@,System.Boolean@)" -->
+        <member name="M:Vistony.Distribucion.Win.MainMenuEvent.OnShowInicializar">
+            fin del  metodo
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddMenus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddTables">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddFields">
+            <summary>
+            e
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddUdos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddUserScripts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddPermissions">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Sb1MetaData.AddIcon">
+            <summary>
+            ddd
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Program.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Vistony.Distribucion.Win.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Properties.Resources.String1">
+            <summary>
+              Busca una cadena traducida similar a 1.
+            </summary>
+        </member>
+        <member name="P:Vistony.Distribucion.Win.Properties.Resources.String2">
+            <summary>
+              Busca una cadena traducida similar a 2.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.UltimaMilla.frmSeguimiento.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.UltimaMilla.frmSeguimiento.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Vistony.Distribucion.Win.Utils.LoadMiscelaneo(SAPbouiCOM.ComboBox@,System.String)">
+            <summary>
+            /
+            </summary>
+            <param name="oComboBox"></param>
+            <param name="tableName"></param>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Vistony.Distribucion.Win.Utils.LoadMiscelaneo(SAPbouiCOM.Column@,System.String)" -->
+        <member name="F:Vistony.Distribucion.Constans.AddonWinForms.frmParametros">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.BaseUDOForm.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.BaseUDOForm.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.Configuracion.frmBase.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.Configuracion.frmBase.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.DatosMaestros.frmCapitanes.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.DatosMaestros.frmCapitanes.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.DatosMaestros.frmEspecies.OnInitializeComponent">
+            <summary>
+            Initialize components. Called by framework after form created.
+            </summary>
+        </member>
+        <member name="M:Forxap.Banco.UI.Win.DatosMaestros.frmEspecies.OnInitializeFormEvents">
+            <summary>
+            Initialize form event. Called by framework before form creation.
+            </summary>
+        </member>
+    </members>
+</doc>

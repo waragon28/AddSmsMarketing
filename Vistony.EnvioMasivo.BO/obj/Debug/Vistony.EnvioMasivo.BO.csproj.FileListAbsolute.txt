@@ -1,0 +1,10 @@
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.BO\bin\Debug\Vistony.EnvioMasivo.BO.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.BO\bin\Debug\Vistony.EnvioMasivo.BO.pdb
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.csprojResolveAssemblyReference.cache
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.pdb
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.BO\bin\Debug\Vistony.EnvioMasivo.BO.dll
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.BO\bin\Debug\Vistony.EnvioMasivo.BO.pdb
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.csprojResolveAssemblyReference.cache
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.dll
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.BO\obj\Debug\Vistony.EnvioMasivo.BO.pdb

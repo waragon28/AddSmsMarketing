@@ -1,0 +1,16 @@
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Vistony.EnvioMasivo.DAL.dll.config
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Vistony.EnvioMasivo.DAL.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Vistony.EnvioMasivo.DAL.pdb
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\RestSharp.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\SAPBusinessOneSDK.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Vistony.EnvioMasivo.BO.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Vistony.EnvioMasivo.BO.pdb
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\bin\Debug\RestSharp.xml
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.csprojResolveAssemblyReference.cache
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.dll
+D:\Desarrollo\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.pdb
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.csprojResolveAssemblyReference.cache
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.dll
+D:\Desarrollo\Add-Ons Envio Masivo de SMS\AddEnvioMasivo\Vistony.EnvioMasivo.DAL\obj\Debug\Vistony.EnvioMasivo.DAL.pdb

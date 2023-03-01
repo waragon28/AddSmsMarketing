@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6014541C-7256-42EF-99C0-A87035730D05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vistony.EnvioMasivo.Win</RootNamespace>
+    <AssemblyName>Vistony.EnvioMasivo.Win</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Vistony.EnvioMasivo.Win.xml</DocumentationFile>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Vistony.Distribucion.Win.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Forxap.Framework, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Framework\DLL\Forxap.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Forxap.Framework.ServiceLayer, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Framework\DLL\Forxap.Framework.ServiceLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Forxap.Framework.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Framework\DLL\Forxap.Framework.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Forxap.Framework\bin\Release\x64\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Framework\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.12.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.12.0\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\sap\SAP Business One\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.cs" />
+    <Compile Include="Asistentes\BaseWizard.b1f.cs">
+      <DependentUpon>BaseWizard.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Asistentes\PrevisualizarSMS.b1f.cs">
+      <DependentUpon>PrevisualizarSMS.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Asistentes\WzEnviosMasivosSMS.b1f.cs">
+      <DependentUpon>WzEnviosMasivosSMS.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUDOForm.b1f.cs">
+      <DependentUpon>BaseUDOForm.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Configuracion\frmBase.b1f.cs" />
+    <Compile Include="Constans\LayoutForms .cs" />
+    <Compile Include="Constans\MenuItem.cs" />
+    <Compile Include="Constans\MessageInfo.cs" />
+    <Compile Include="Constans\UserFile.cs" />
+    <Compile Include="Constans\UserObjects.cs" />
+    <Compile Include="Constans\UserTables.cs" />
+    <Compile Include="Constans\WinForms.cs" />
+    <Compile Include="DatosMaestros\Campain.b1f.cs">
+      <DependentUpon>Campain.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="DatosMaestros\frmEspecies.b1f.cs">
+      <DependentUpon>frmEspecies.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuEvent.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="MainMenuEvent.cs" />
+    <Compile Include="MetaData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UltimaMilla\frmSeguimiento.b1f.cs">
+      <DependentUpon>frmSeguimiento.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Asistentes\BaseWizard.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Asistentes\PrevisualizarSMS.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Asistentes\WzEnviosMasivosSMS.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="BaseUDOForm.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="bin\Debug\Scripts\SQL\Query2" />
+    <None Include="Configuracion\frmBase.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="DatosMaestros\Campain.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="DatosMaestros\Campain.b1f__orig_srf">
+      <DependentUpon>Campain.b1f</DependentUpon>
+    </None>
+    <None Include="DatosMaestros\frmEspecies.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="UltimaMilla\frmSeguimiento.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Asistentes\Importar\" />
+    <Folder Include="bin\Debug\Scripts\Hana\" />
+    <Folder Include="Formularios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Files\UserFields.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\Files\UserMenus.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\Files\UserObjects.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\Files\UserPermissions.xml" />
+    <Content Include="bin\Debug\Files\UserScripts.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\Files\UserTables.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\Images\AddonIcon.png" />
+    <Content Include="bin\Debug\Images\Wizard.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vistony.EnvioMasivo.BLL\Vistony.EnvioMasivo.BLL.csproj">
+      <Project>{62869991-12b4-49f2-9a78-69a3f385e017}</Project>
+      <Name>Vistony.EnvioMasivo.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vistony.EnvioMasivo.BO\Vistony.EnvioMasivo.BO.csproj">
+      <Project>{939FE266-735B-4A4C-A5F2-696CD98A1270}</Project>
+      <Name>Vistony.EnvioMasivo.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vistony.EnvioMasivo.DAL\Vistony.EnvioMasivo.DAL.csproj">
+      <Project>{FE704F41-B43C-4A5B-80E4-88B411C4BC64}</Project>
+      <Name>Vistony.EnvioMasivo.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

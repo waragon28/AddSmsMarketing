@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserScripts>
+
+  <UserProcedure Description = "Procedimientos almacenados ">
+      <FileName>\test1.sql</FileName>
+      <FileName>\test2.sql</FileName>
+      <FileName>\test3.sql</FileName>
+      <FileName>\test4.sql</FileName>
+
+  </UserProcedure>
+  <!--
+
+    <FormattedSearche Description = " ">
+      <QueryName></QueryName>
+      <QueryBody></QueryBody>
+      <FormID></FormID>
+      <ItemID></ItemID>
+      <ColID></ColID>
+    </FormattedSearche>
+  -->
+
+</UserScripts>
